@@ -1861,7 +1861,7 @@ section div h2 {
         document.body.appendChild(cardAudioPlayer);
         
         // update second radio url here:-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-        var cardRadioUrl = "https://play.radioking.io/anytime-fitness-chaa2";  
+        var cardRadioUrl = "https://play.radioking.io/anytimefitnesschaaa22";  
         var cardPlayState = false;
         var currentPlayingRadio = null;
     
