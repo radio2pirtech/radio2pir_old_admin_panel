@@ -33,6 +33,8 @@
                             <input type="text" class="form-control" name="store_url" placeholder="Store URL" value="{{old('email')}}" required>
                             <label for="">Store Music URL</label>
                             <input type="text" class="form-control" name="store_music_url" placeholder="Store Music URL" value="" required>
+                            <label for="">Secondary Radio URL (Optional)</label>
+                            <input type="text" class="form-control" name="radio_url" placeholder="Secondary Radio URL" value="">
                             <label for="">Store Logo</label>
                             <input type="file" class="form-control" name="logo" required>
                             

@@ -45,6 +45,7 @@ class StoreController extends Controller
             'store_name' => $validated['store_name'],
             'store_slug' => $validated['store_url'],
             'music_url' => $validated['store_music_url'],
+            'radio_url' => $request->radio_url,
             'store_logo' => $logoPath
         ]);
 
@@ -75,6 +76,7 @@ class StoreController extends Controller
             'store_name' => $validated['store_name'],
             'store_slug' => $validated['store_url'],
             'music_url' => $validated['store_music_url'],
+            'radio_url' => $request->radio_url,
         ];
 
         if ($request->hasFile('logo')) {
